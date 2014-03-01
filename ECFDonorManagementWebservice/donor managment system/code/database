@@ -1,0 +1,6 @@
+create database ecf;
+
+use ecf;
+
+
+create table donors (id int(122) auto_increment,fname varchar(232),lname varchar(232),address varchar(233),city varchar(23),state varchar(234),pcode varchar(222),country varchar(123),email varchar(233),mob int(122),dtype varchar(233),amt int(233),primary key(id)); 
